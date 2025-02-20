@@ -5,41 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Slow Cooker Recipe Generator</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>Welcome to tasty Slow Cooker Meals</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter your favourite ingredients"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Recipe goes here <br />
-        ingredients list
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/dolapojames" target="_blank">Dolapo James</a>
-      and is
-      <a
-        href="https://github.com/dolapojames/slow-cooker-recipe-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://slow-cooker-recipes.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Welcome to tasty Slow Cooker Meals</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter your favourite ingredients"
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">
+          Recipe goes here <br />
+          ingredients list
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/dolapojames" target="_blank"
+          >Dolapo James</a
+        >
+        and is
+        <a
+          href="https://github.com/dolapojames/slow-cooker-recipe-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://slow-cooker-recipes.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
