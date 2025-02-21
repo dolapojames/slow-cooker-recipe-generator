@@ -31,12 +31,12 @@ form {
   margin-bottom: 30px;
 }
 .instruction {
-  padding: 30 px;
   width: 80%;
   border: 1px solid rgb(133, 133, 133, 0.5);
   font-size: 16px;
   border-radius: 30px;
   line-height: 2.5;
+  padding-left: 20px;
 }
 .submit-button {
   margin-left: 10px;
