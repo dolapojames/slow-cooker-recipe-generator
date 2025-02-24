@@ -55,6 +55,9 @@ form {
   border-left: 5px solid rgb(216, 202, 6);
   border-radius: 5px;
 }
+.hidden {
+  display: none;
+}
 footer {
   text-align: center;
   font-size: 14px;
